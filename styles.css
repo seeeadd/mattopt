@@ -199,9 +199,9 @@ ul {
   color: var(--wheat);
   background-color: var(--charcoal);
   background-image:
-    radial-gradient(120% 120% at 50% 0%, rgba(17, 17, 17, 0.65) 0%, rgba(17, 17, 17, 0.92) 65%, rgba(17, 17, 17, 0.98) 100%),
-    linear-gradient(180deg, rgba(28, 28, 28, 0.9) 0%, rgba(17, 17, 17, 0.95) 45%, rgba(17, 17, 17, 0.98) 100%),
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240' viewBox='0 0 240 240'%3E%3Crect width='240' height='240' fill='%23d8a457'/%3E%3Cpath d='M0 36c40-8 80 8 120 0s80-40 120-32v32c-40 8-80-8-120 0S40 76 0 68V36zm0 88c40-8 80 8 120 0s80-40 120-32v32c-40 8-80-8-120 0s-80 40-120 32v-32z' fill='%23c7862e' fill-opacity='0.18'/%3E%3Cpath d='M0 0h240v240H0z' fill='%238e3b24' fill-opacity='0.12'/%3E%3C/svg%3E");
+    radial-gradient(120% 120% at 50% 0%, rgba(17, 17, 17, 0.55) 0%, rgba(17, 17, 17, 0.85) 65%, rgba(17, 17, 17, 0.95) 100%),
+    linear-gradient(180deg, rgba(28, 28, 28, 0.82) 0%, rgba(17, 17, 17, 0.9) 45%, rgba(17, 17, 17, 0.96) 100%),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240' viewBox='0 0 240 240'%3E%3Crect width='240' height='240' fill='%23d8a457'/%3E%3Cpath d='M0 36c40-8 80 8 120 0s80-40 120-32v32c-40 8-80-8-120 0S40 76 0 68V36zm0 88c40-8 80 8 120 0s80-40 120-32v32c-40 8-80-8-120 0s-80 40-120 32v-32z' fill='%23c7862e' fill-opacity='0.16'/%3E%3Cpath d='M0 0h240v240H0z' fill='%238e3b24' fill-opacity='0.12'/%3E%3C/svg%3E");
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply, multiply, normal;
@@ -252,7 +252,7 @@ ul {
   display: flex;
   flex-direction: column;
   gap: var(--space-lg);
-  max-width: 640px;
+  max-width: 720px;
 }
 
 .hero-headline {
@@ -261,7 +261,7 @@ ul {
   color: var(--wheat);
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  text-shadow: 0 6px 18px rgba(0, 0, 0, 0.55);
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 
 .hero-headline .highlight {
@@ -277,7 +277,7 @@ ul {
 
 .hero-subheadline {
   font-size: var(--text-lg);
-  color: rgba(250, 246, 240, 0.9);
+  color: rgba(250, 246, 240, 0.94);
   line-height: 1.75;
   margin: 0;
 }
@@ -290,7 +290,6 @@ ul {
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6);
   cursor: pointer;
   border: 1px solid rgba(48, 38, 28, 0.35);
-  max-width: 640px;
   width: 100%;
   aspect-ratio: 16 / 9;
 }
